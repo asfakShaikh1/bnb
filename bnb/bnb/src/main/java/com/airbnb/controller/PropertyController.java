@@ -46,7 +46,7 @@ public class PropertyController {
             cityService.createCity(city);
             return "Create City successful";
 }
-
+//we are finding the country
 @PostMapping("/country")
 public String createCountry( @RequestBody Country country){
         if(country!=null){
