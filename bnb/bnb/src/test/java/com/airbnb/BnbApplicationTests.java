@@ -8,6 +8,7 @@ class BnbApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("hello");
 	}
 
 }
